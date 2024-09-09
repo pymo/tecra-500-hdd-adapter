@@ -8,7 +8,7 @@ This design was inspired by the discussions in [this vogons post](https://www.vo
 
 If you want to build this adapter yourself, keep in mind that the most difficult thing is to find a seller that sells this proprietary connector (that is, for a small quantity, at a reasonable price, e.g. \< $6). So buy the connector first before ordering the PCB, try your luck on Taobao, Aliexpress,eBay, Mouser etc. The IDE receptacle is a standard 2x22p, 2mm-pitch pin socket, you can buy it pretty easily. 
 
-I have provided the PCB design for both Through-hole and SMT versions in the `pcb/` folder. The SMT soldering would be more difficult by hand. The PCB is designed using LCEDA (an online PCB drawing tool).
+I have provided the PCB design for both Through-hole and SMT versions in the `pcb/` folder. Choose based on which connector type you have in hand. The SMT soldering would be more difficult by hand. The PCB is designed using LCEDA (an online PCB drawing tool).
 
 You can use any of the following model:
 
@@ -30,6 +30,8 @@ Use after dremeling off the flanges on both ends:
 | 3M | P50LE-050P1-SML-DA | SMT version | [P50LE series](https://multimedia.3m.com/mws/media/218453O/3mtm-050-in-low-profile-plug-050-strt-ra-smt-ts1148.pdf) |
 
 (BTW, the laptop side's connector seems to be KEL 8901-050-177S-A)
+
+## Building tips
 
 It is recommended to trim the pins flush to the PCB *BEFORE* soldering the through-hole components to the PCB, so that they do not extrude too high on the other side. Use a piece of electrical tape to cover the solder pads after soldering, to avoid accidental short with the metal frame of the laptop.
 
