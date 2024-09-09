@@ -1,14 +1,12 @@
 # Toshiba Tecra 500/510 series HDD adapter
 
-This adapter converts the Toshiba Tecra 500/510 series's proprietary HDD connector, to a standard 2.5" IDE 44-pin HDD connector. You can use normal 2.5" HDD up to 17mm thickness in the Toshiba Tecra 500/510 laptops.
+This adapter converts the Toshiba Tecra 500/510 series laptop's proprietary HDD connector, to a standard 2.5" IDE 44-pin HDD connector. You can use normal 2.5" HDD up to 17mm thickness in the Toshiba Tecra 500/510 laptops (but keep in mind that the laptop BIOS does not support HDD larger than a certain size, I think it is 10GB? Just a disclaimer).
 
-I also include a 3d-printed HDD caddy design. The stl file is at the `3d_print/` folder. The 3d model is designed using Tinkercad. You can remix it [here](https://www.tinkercad.com/things/9fCpsQH187o-toshiba-tecra-510cdt-hdd-caddy) if you want.
+I built a couple of extra adapters and offered them for sale on [Tindie](https://www.tindie.com/products/35777/).
 
-This design was inspired by the discussions in [this vogons post](https://www.vogons.org/viewtopic.php?f=46&t=83221). Thanks for all the previous contributors!
+This design was inspired by the discussions in [this vogons post](https://www.vogons.org/viewtopic.php?f=46&t=83221). Thanks for all the previous contributors! If you have any suggestions to this adapter, you can reply to that post on vogons.
 
 If you want to build this adapter yourself, keep in mind that the most difficult thing is to find a seller that sells this proprietary connector (that is, for a small quantity, at a reasonable price, e.g. \< $6). So buy the connector first before ordering the PCB, try your luck on Taobao, Aliexpress,eBay, Mouser etc. The IDE receptacle is a standard 2x22p, 2mm-pitch pin socket, you can buy it pretty easily. 
-
-I have provided the PCB design for both Through-hole and SMT versions in the `pcb/` folder. Choose based on which connector type you have in hand. The SMT soldering would be more difficult by hand. The PCB is designed using LCEDA (an online PCB drawing tool).
 
 You can use any of the following model:
 
@@ -30,6 +28,10 @@ Use after dremeling off the flanges on both ends:
 | 3M | P50LE-050P1-SML-DA | SMT version | [P50LE series](https://multimedia.3m.com/mws/media/218453O/3mtm-050-in-low-profile-plug-050-strt-ra-smt-ts1148.pdf) |
 
 (BTW, the laptop side's connector seems to be KEL 8901-050-177S-A)
+
+I have provided the PCB design for both Through-hole and SMT versions in the `pcb/` folder. You can use the Gerber file to order PCBs from your selected PCB factory. Choose the version (Through-hole vs. SMT) based on the connector type you have bought. The SMT soldering would be more difficult by hand, a hotair station is recommended. The PCB is designed using LCEDA (an online PCB drawing tool), I'll pulicize the LCEDA project when it is stable.
+
+I've also included a 3d-printed HDD caddy design. The stl file is at the `3d_print/` folder. The 3d model is designed using Tinkercad. You can remix it [here](https://www.tinkercad.com/things/9fCpsQH187o-toshiba-tecra-510cdt-hdd-caddy) if you want. Print using PETG for better heat resistance, because HDD becomes hot when operating.
 
 ## Building tips
 
