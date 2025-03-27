@@ -2,7 +2,7 @@
 
 This adapter converts the Toshiba Tecra 500/510 series laptop's proprietary HDD connector, to a standard 2.5" IDE 44-pin HDD connector. You can use normal 2.5" HDD up to 17mm thickness in the Toshiba Tecra 500/510 laptops (but keep in mind that the laptop BIOS does not support HDD larger than a certain size, I think it is 10GB? Just a disclaimer).
 
-I built a couple of extra adapters and offered them for sale on [Tindie](https://www.tindie.com/products/35777/).
+I built a couple of extra adapters and offered them for sale on [Tindie](https://www.tindie.com/products/35777/) and [eBay](https://www.ebay.com/itm/226378466337).
 
 This design was inspired by the discussions in [this vogons post](https://www.vogons.org/viewtopic.php?f=46&t=83221). Thanks for all the previous contributors! If you have any suggestions to this adapter, you can reply to that post on vogons.
 
@@ -29,7 +29,7 @@ Use after dremeling off the flanges on both ends:
 
 (BTW, the laptop side's connector seems to be KEL 8901-050-177S-A)
 
-I have provided the PCB design for both Through-hole and SMT versions in the `pcb/` folder. You can use the Gerber file to order PCBs from your selected PCB factory. Choose the version (Through-hole vs. SMT) based on the connector type you have bought. The SMT soldering would be more difficult by hand, a hotair station is recommended. The PCB is designed using LCEDA (an online PCB drawing tool), I'll pulicize the LCEDA project when it is stable.
+I have provided the PCB design for both Through-hole and SMT versions in the `pcb/` folder. You can use the Gerber file to order PCBs from your selected PCB factory. Choose the version (Through-hole vs. SMT) based on the connector type you have bought. The SMT soldering would be more difficult by hand, a hotair station is recommended. The PCB is designed using LCEDA (an online PCB drawing tool), you can modify it from [here](https://oshwhub.com/chen_xin_ming/toshiba-laptop-hdd-connector).
 
 I've also included a 3d-printed HDD caddy design. The stl file is at the `3d_print/` folder. The 3d model is designed using Tinkercad. You can remix it [here](https://www.tinkercad.com/things/9fCpsQH187o-toshiba-tecra-510cdt-hdd-caddy) if you want. Print using PETG for better heat resistance, because HDD becomes hot when operating.
 
